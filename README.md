@@ -1,2 +1,1 @@
 # new-offer-scripy
-
