@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Клейморфный сайт педагога</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">🌈 Педагогика</div>
+    <nav class="nav">
+      <a href="#hero">Главная</a>
+      <a href="#about">О педагоге</a>
+      <a href="#courses">Занятия</a>
+      <a href="#materials">Материалы</a>
+      <a href="#parents">Родителям</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <button class="btn primary">Записаться</button>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="hero__text card">
+        <p class="badge">Дружелюбный педагог • 4–10 лет</p>
+        <h1>Анна Солнцева</h1>
+        <p class="subtitle">Учимся играя! Мягкий, безопасный и увлекательный мир знаний.</p>
+        <div class="hero__actions">
+          <button class="btn primary">Записаться на встречу</button>
+          <button class="btn ghost">Посмотреть занятия</button>
+        </div>
+      </div>
+      <div class="hero__art card">
+        <div class="blob blob--pink"></div>
+        <div class="blob blob--blue"></div>
+        <div class="avatar">Фото<br>педагога</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section__header">
+        <span class="section__eyebrow">Кто я?</span>
+        <h2>О педагоге</h2>
+        <p>Опыт 8+ лет в дошкольном и начальном обучении, игровые методики и поддержка каждого ребенка.</p>
+      </div>
+      <div class="about__grid">
+        <div class="card about__photo">
+          <div class="avatar large">Фото-заглушка</div>
+          <p>Теплая, открытая атмосфера и индивидуальный подход.</p>
+        </div>
+        <div class="card about__details">
+          <ul class="pill-list">
+            <li>🎈 Развивающие игры</li>
+            <li>📚 Чтение и речь</li>
+            <li>🎨 Творческие мастерские</li>
+            <li>🤝 Навыки дружбы</li>
+          </ul>
+          <p>Коммуникация с родителями, еженедельные отчеты, совместные мини-проекты.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <div class="section__header">
+        <span class="section__eyebrow">Игровые форматы</span>
+        <h2>Занятия и курсы</h2>
+        <p>Короткие интерактивные модули, понятные детям и родителям.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card course">
+          <div class="icon">🧩</div>
+          <h3>Мир логики</h3>
+          <p>Пазлы, настольные игры, первые задачи на логику.</p>
+          <button class="btn soft">Подробнее</button>
+        </article>
+        <article class="card course">
+          <div class="icon">🎵</div>
+          <h3>Музыкальные шаги</h3>
+          <p>Ритм, слух, пластика и мини-сценки для малышей.</p>
+          <button class="btn soft">Подробнее</button>
+        </article>
+        <article class="card course">
+          <div class="icon">🚀</div>
+          <h3>Наука вокруг</h3>
+          <p>Безопасные опыты, любопытство и вопросы «почему?».</p>
+          <button class="btn soft">Подробнее</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="materials" class="section materials">
+      <div class="section__header">
+        <span class="section__eyebrow">Для занятий дома</span>
+        <h2>Материалы для детей</h2>
+        <p>Скачайте игровые задания, раскраски и карточки.</p>
+      </div>
+      <div class="cards-grid materials__grid">
+        <div class="card material">
+          <div class="icon">🎲</div>
+          <h3>Мини-игры</h3>
+          <p>Простые правила, яркие иллюстрации, время 10–15 минут.</p>
+          <a href="#" class="link">Скачать</a>
+        </div>
+        <div class="card material">
+          <div class="icon">✏️</div>
+          <h3>Задания</h3>
+          <p>Тетрадки с лабиринтами, точками и штриховкой.</p>
+          <a href="#" class="link">Скачать</a>
+        </div>
+        <div class="card material">
+          <div class="icon">🖍️</div>
+          <h3>Раскраски</h3>
+          <p>Крупные контуры, темы природы и дружбы.</p>
+          <a href="#" class="link">Скачать</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="parents" class="section parents">
+      <div class="section__header">
+        <span class="section__eyebrow">Полезно знать</span>
+        <h2>Для родителей</h2>
+        <p>Поддерживаем доверие и совместный рост.</p>
+      </div>
+      <div class="card parents__card">
+        <ul class="pill-list">
+          <li>🧘‍♀️ Режим и спокойствие</li>
+          <li>⌛ Микропаусы на отдых</li>
+          <li>💬 Честная обратная связь</li>
+          <li>🧡 Эмоциональная безопасность</li>
+        </ul>
+        <p>Прозрачные план-конспекты, домашние задания без перегрузки, ежемесячные встречи.</p>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <div class="section__header">
+        <span class="section__eyebrow">Всегда на связи</span>
+        <h2>Контакты</h2>
+        <p>Напишите мне или подпишитесь на новости.</p>
+      </div>
+      <div class="contacts__layout">
+        <form class="card form">
+          <div class="form__row">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Ваше имя" />
+          </div>
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="name@email.com" />
+          </div>
+          <div class="form__row">
+            <label for="message">Сообщение</label>
+            <textarea id="message" rows="3" placeholder="Коротко опишите вопрос"></textarea>
+          </div>
+          <button type="submit" class="btn primary">Отправить</button>
+        </form>
+        <div class="card socials">
+          <h3>Соцсети</h3>
+          <div class="socials__buttons">
+            <a class="btn soft" href="#">Telegram</a>
+            <a class="btn soft" href="#">VK</a>
+            <a class="btn soft" href="#">YouTube</a>
+          </div>
+          <p class="small">Адрес: ул. Добрая, 12 • Тел.: +7 (999) 123-45-67</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer card">
+    <p>© 2024 Анна Солнцева — Детский педагогический центр.</p>
+    <p class="small">Клейморфизм • Тепло • Безопасность</p>
+  </footer>
+</body>
+</html>
